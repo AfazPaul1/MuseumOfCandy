@@ -50,20 +50,79 @@
                 <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
                 <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
                 <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+                <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
+                <h1 class="text-center">MUSEUM<span>/</span>OF<span>/</span>CANDY</h2>
             </div>
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid" src="strawberry-icelollies.jpg" alt="strawberry ice lollies">
+          <img class="img-fluid" src="img/strawberry-icelollies.jpg" alt="strawberry ice lollies">
         </div>
     </div>
   </section>
 
+<section class="container-fluid px-0">
+  <div class="row align-items-center content">
+    <div class="col-md-6 order-2 order-md-1">
+      <img class="img-fluid" src="img/milk.png" alt="milkshakes">
+    </div>
+    <div class="col-md-6 text-center order-1 order-md-2">
+      <div class="row justify-content-center">
+        <div class="cube-note col-10 col-lg-8 mb-5 mb-md-0">
+          <h2>SWEET DREAMS</h2>
+          <img class="d-none d-lg-inline" src="img/lolly_icon.png" alt="lolly icon">
+          <p class="lead">
+          Toffee cheesecake macaroon cake wafer apple pie donut muffin. Sweet apple pie pudding cheesecake marshmallow sweet roll. Ice cream croissant cookie chocolate cake. Fruitcake bonbon oat cake toffee marzipan chocolate cake.
+          </p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row align-items-center content">
+    <div class="col-md-6 text-center">
+      <div class="row justify-content-center">
+        <div class="cube-note col-10 col-lg-8 mb-5 mb-md-0">
+          <h2>HISTORY OF DELIGHT</h2>
+          <img class="d-none d-lg-inline" src="img/lolly_icon.png" alt="lolly icon">
+          <p class="lead">
+            Cheesecake powder powder soufflé gingerbread macaroon. Tiramisu apple pie caramels lollipop chocolate cake. Topping chocolate cake chocolate danish tiramisu sweet roll jujubes jelly beans.
+          </p>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-6">
+      <img class="img-fluid" src="img/gumball.png" alt="sweet machine">
+    </div>
+  </div>
+  <div class="row align-items-center content">
+    <div class="col-md-6 order-2 order-md-1">
+      <img class="img-fluid" src="img/sprinkles_mocktail.png" alt="star-shaped mocktail of sprinkles">
+    </div>
+    <div class="col-md-6 text-center order-1 order-md-2">
+      <div class="row justify-content-center">
+        <div class="cube-note col-10 col-lg-8 mb-5 mb-md-0">
+          <h2>SUGAR RUSH</h2>
+          <img class="d-none d-lg-inline" src="img/lolly_icon.png" alt="lolly icon">
+          <p class="lead">
+          Chocolate bar fruitcake bonbon gingerbread liquorice pie croissant lollipop. Cookie halvah toffee gummies liquorice pudding.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
   <!-- Optional JavaScript -->
-  <!-- <script src="js/scripts.js"></script> -->
-
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<script>
+  $(function(){
+    $(document).scroll(function(){
+      var $nav = $("#mainNavbar");
+      $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    })
+  });
+</script>
 </body>
 </html>
